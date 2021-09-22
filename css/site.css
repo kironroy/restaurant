@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito:wght@300&display=swap');
+
+header {
+    font-family: 'Kreon', serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer {
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
