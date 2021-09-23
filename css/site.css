@@ -82,6 +82,10 @@ footer a {
     text-align: center;
 }
 
+.about-info {
+    text-align: center;
+}
+
 .highlights {
     display: flow-root;
 }
