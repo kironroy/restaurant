@@ -76,3 +76,17 @@ footer a {
     text-align: center;
 }
 
+.highlights {
+    display: flow-root;
+}
+
+.highlights .left {
+    width: 50%;
+    float: left;
+}
+
+.highlights .right {
+    width: 50%;
+    float: right;
+}
+
