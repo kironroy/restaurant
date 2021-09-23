@@ -1,28 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito:ital,wght@0,300;1,300&display=swap');
 
-header {
+html {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Kreon', serif;
-    font-size: 24px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 h1 {
-    font-size: 80px;
-    font-family: 'Nunito', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin: 0;
+    line-height: 4rem;
+    text-indent: 1rem;
 }
 
 h2 {
-    font-size: 40px;
-    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
 }
 
-p {
-    font-size: 20px;
-    font-family: 'Nunito', sans-serif;
+header {
+    background-color: #000;
+    font-size: .67rem;
+    text-align:right;
+    text-transform: uppercase;
+    padding: .4rem;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    padding: .3rem;
 }
 
 footer {
-    
-    font-family: 'Nunito', sans-serif;
-    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    font-size: .37rem;
+    text-align: center;
+    padding: .4rem;
+ 
 }
+
+footer a {
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text p {
+    margin: 0;
+}
+
+.main-info {
+    text-align: center;
+}
+
